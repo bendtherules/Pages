@@ -22,16 +22,16 @@ w\:* {behavior:url(#default#VML);}
  <o:DocumentProperties>
   <o:Author>Abhas Bhattacharya</o:Author>
   <o:LastAuthor>Abhas Bhattacharya</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>248</o:TotalTime>
-  <o:Created>2013-04-22T16:28:00Z</o:Created>
-  <o:LastSaved>2013-04-22T16:28:00Z</o:LastSaved>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>8</o:TotalTime>
+  <o:Created>2013-04-23T08:06:00Z</o:Created>
+  <o:LastSaved>2013-04-23T08:08:00Z</o:LastSaved>
   <o:Pages>5</o:Pages>
   <o:Words>1090</o:Words>
-  <o:Characters>6218</o:Characters>
+  <o:Characters>6217</o:Characters>
   <o:Lines>51</o:Lines>
   <o:Paragraphs>14</o:Paragraphs>
-  <o:CharactersWithSpaces>7294</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>7293</o:CharactersWithSpaces>
   <o:Version>14.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -43,6 +43,9 @@ w\:* {behavior:url(#default#VML);}
 href="cyto_proposal_draft_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -371,9 +374,8 @@ href="cyto_proposal_draft_files/colorschememapping.xml">
 	panose-1:2 11 6 4 3 5 4 4 2 4;
 	mso-font-charset:0;
 	mso-generic-font-family:swiss;
-	mso-font-format:other;
 	mso-font-pitch:variable;
-	mso-font-signature:3 0 0 0 1 0;}
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -574,8 +576,7 @@ p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
 	font-size:8.0pt;
 	font-family:"Tahoma","sans-serif";
 	mso-fareast-font-family:Calibri;
-	mso-fareast-theme-font:minor-latin;
-	mso-bidi-font-family:Tahoma;}
+	mso-fareast-theme-font:minor-latin;}
 p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
 	{mso-style-priority:1;
 	mso-style-unhide:no;
@@ -739,6 +740,12 @@ span.TitleChar
 	mso-themeshade:191;
 	letter-spacing:.25pt;
 	mso-font-kerning:14.0pt;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -1279,14 +1286,14 @@ div.WordSection1
 @list l8
 	{mso-list-id:1624657255;
 	mso-list-type:hybrid;
-	mso-list-template-ids:1668440594 67698701 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+	mso-list-template-ids:-1479218694 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
 @list l8:level1
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0FC;
+	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	font-family:Wingdings;}
+	font-family:Symbol;}
 @list l8:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
@@ -1717,15 +1724,15 @@ Cytoscape 3.0 file formats.</p>
 <p class=MsoNormal><span style='mso-spacerun:yes'> </span>The idea is based
 upon suggested Idea 19: JavaScript JSON convertors for graph file formats, but
 I would like to drop the word “graph” from it, because this project will
-support virtually all formats accepted by Cytoscape 3.0 .</p>
+support virtually all formats accepted by Cytoscape <span class=GramE>3.0 .</span></p>
 
 <h1>Synopsis:</h1>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal>This project deals with the conversion of different graph
-and other <span style='mso-spacerun:yes'> </span>formats used in Cytoscape 3.0
-to Json used in cytoscape.js and vice versa. </p>
+and <span class=GramE>other <span style='mso-spacerun:yes'> </span>formats</span>
+used in Cytoscape 3.0 to Json used in cytoscape.js and vice versa. </p>
 
 <p class=MsoNormal>Cytoscape 3.0 accepts file formats like xgmml, graphml, gml,
 nnf, sif, xls, sif, csv whereas cytoscape.js currently accepts only json
@@ -1742,13 +1749,14 @@ support import and export to all the formats mentioned earlier.</p>
 
 <p class=MsoNormal>The Cytoscape 3.0 file formats that will be supported are:</p>
 
-<p class=MsoNormal>Xgmml, Graphml, Sif, Nnf, Gml (,Csv, Xlsx).</p>
+<p class=MsoNormal>Xgmml, Graphml, Sif, Nnf, Gml (<span class=GramE>,Csv</span>,
+Xlsx).</p>
 
 <p class=MsoNormal>They are arranged according to their priority and so this is
 the order in which their json converters will be implemented. The last two (in
 bracket) will be kept as extras, meaning that they will be implemented only if
-the project is finished well before the deadline (see the timeline for details)
-.</p>
+the project is finished well before the deadline (see the timeline for details<span
+class=GramE>) .</span></p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
  id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
@@ -1784,12 +1792,13 @@ alt="Description: C:\Users\Abhas_2\Desktop\cyto\cyto_proposal.png" v:shapes="Pic
 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]>Xgmml: This is the top priority format and hence
-will be dealt with first. Xml parsers available in native javascript and jquery
-will be used for parsing the xgmml file. Then some JavaScript code (using
-looping and if needed, regular expressions) will deal with the parsed xml file
-to convert them correctly into javascript variables and objects. Finally, they
-can be used to generate its json representation. (Maybe, take some inspiration
-from this library in Gremlin (written in java): <a
+will be dealt with first. Xml parsers available in native <span class=SpellE>javascript</span>
+and <span class=SpellE>jquery</span> will be used for parsing the xgmml file.
+Then some JavaScript code (using looping and if needed, regular expressions)
+will deal with the parsed xml file to convert them correctly into <span
+class=SpellE>javascript</span> variables and objects. Finally, they can be used
+to generate its json representation. (Maybe, take some inspiration from this
+library in Gremlin (written in java): <a
 href="https://github.com/tinkerpop/blueprints/wiki/GraphSON-Reader-and-Writer-Library">https://github.com/tinkerpop/blueprints/wiki/GraphSON-Reader-and-Writer-Library</a>
 )</p>
 
@@ -1826,25 +1835,25 @@ Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"
 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]>Graphml:<span style='mso-spacerun:yes'> 
-</span>Graphml is also a xml-based format, so the implementation process is
-same as that of the previous one. Only the code will be different to take care
-of the syntax difference of these formats.</p>
+</span>Graphml is also <span class=GramE>a</span> xml-based format, so the
+implementation process is same as that of the previous one. Only the code will
+be different to take care of the syntax difference of these formats.</p>
 
 <p class=MsoListParagraphCxSpMiddle><o:p>&nbsp;</o:p></p>
 
-<p class=MsoListParagraphCxSpMiddle>Before<span style='mso-spacerun:yes'> 
-</span>I move on to the other ones, here is a small chart for reference:</p>
+<p class=MsoListParagraphCxSpMiddle>Before I move on to the other ones, here is
+a small chart for reference:</p>
 
-<p class=MsoListParagraphCxSpLast><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_1" o:spid="_x0000_i1025" type="#_x0000_t75" alt="Description: C:\Users\Abhas_2\Desktop\cyto\cyto_implementation.png"
- style='width:467.25pt;height:272.25pt;visibility:visible;mso-wrap-style:square'>
+<p class=MsoListParagraphCxSpLast><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_3" o:spid="_x0000_i1025" type="#_x0000_t75" alt="Description: C:\Users\Abhas_2\Desktop\cyto\cyto_implementation.png"
+ style='width:591.75pt;height:345pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="cyto_proposal_draft_files/image003.png" o:title="cyto_implementation"/>
-</v:shape><![endif]--><![if !vml]><img border=0 width=623 height=363
-src="cyto_proposal_draft_files/image004.jpg"
+</v:shape><![endif]--><![if !vml]><img border=0 width=789 height=460
+src="cyto_proposal_draft_files/image003.png"
 alt="Description: C:\Users\Abhas_2\Desktop\cyto\cyto_implementation.png"
-v:shapes="Picture_x0020_1"><![endif]></span></p>
+v:shapes="Picture_x0020_3"><![endif]></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
@@ -1855,15 +1864,16 @@ implementation of these converters (written by me) available at <a
 href="https://github.com/bendtherules/GSOC_13/tree/master/nnf_and_sif_to_json_py%20%20">https://github.com/bendtherules/GSOC_13/tree/master/nnf_and_sif_to_json_py
 </a><span style='mso-spacerun:yes'> </span>. Nnf files will be stripped off its
 network information and treated just like a Sif file (Possible problem with
-multi-network files ??)</p>
+multi-network <span class=GramE>files ??)</span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]>GML:<span style='mso-spacerun:yes'>  </span>A
-custom-made parser needs to be built based on regular expressions (native js or
-possibly using xregexp library <a href="http://xregexp.com/">http://xregexp.com/</a>
-). The rest of the plan is the same as that of xgmml, only this new parser will
+custom-made parser needs to be built based on regular expressions (native <span
+class=SpellE>js</span> or possibly using xregexp library <a
+href="http://xregexp.com/">http://xregexp.com/</a> ). The rest of the plan is
+the same as that of <span class=GramE>xgmml,</span> only this new parser will
 be used.</p>
 
 <p class=MsoNormal>Few words on the extras:</p>
@@ -1894,7 +1904,7 @@ called Xlsx.js <a href="https://github.com/stephen-hardy/xlsx.js">https://github
 . I am not much sure if I can pull off this part, but I am still including this
 in the proposal mostly for my inspiration than anything else. Also, I know that
 the Cytoscape project originally supported .xls, but I think its best kept to
-Microsoft Excel for converting .xls into .xlsx .</p>
+Microsoft Excel for converting .xls into .<span class=GramE>xlsx .</span></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -1986,7 +1996,8 @@ tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;
 mso-bidi-font-size:11.0pt;line-height:115%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>5.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-style='mso-spacerun:yes'> </span>July 26 – July 28 (3 days): Test graphml converter</p>
+style='mso-spacerun:yes'> </span>July 26 – July 28 (3 days): Test graphml
+converter</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l10 level1 lfo9;
 tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;
@@ -2002,7 +2013,7 @@ mso-bidi-font-size:11.0pt;line-height:115%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>7.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>July
 30: Take a day off from coding and analyze what went right and wrong in the
-first-term. (How about a blog post? :D)</p>
+first-term. (How about a blog post<span class=GramE>? :</span>D)</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l10 level1 lfo9;
 tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;
@@ -2079,16 +2090,16 @@ mso-bidi-font-size:11.0pt;line-height:115%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>3.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>The
 input graph formats might not be well-formed (if manually created). (Maybe, add
-a xml-checker and discard non well-formed files. Such a checker might not be
-possible in case of non-xml based formats. )</p>
+<span class=GramE>a</span> xml-checker and discard non well-formed files. Such
+a checker might not be possible in case of non-xml based formats. )</p>
 
 <h1>What can I bring to the team?</h1>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l8 level1 lfo14'><![if !supportLists]><span
-style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
-Wingdings'><span style='mso-list:Ignore'>ü<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]>Yes, I am committed in working hard for this
 GSOC project this summer. <span style='mso-spacerun:yes'> </span>I do not have
 any other commitment during the summer other than my college internals for the
@@ -2097,17 +2108,17 @@ September. I am not yet sure about the date, but I will ask for a one-week
 break during that time. I hope it won’t be much of a problem.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l8 level1 lfo14'><![if !supportLists]><span
-style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
-Wingdings'><span style='mso-list:Ignore'>ü<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]>Being my first GSOC project, I am also
 super-excited about it, can’t wait to have a fruitful summer this year.</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l8 level1 lfo14'><![if !supportLists]><span
-style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
-Wingdings'><span style='mso-list:Ignore'>ü<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]>I wish to learn some more about the core
-Cytoscape project but as I am not a Java developer, I wish to linger with the
-Cytoscape.js project.</p>
+Cytoscape project but as I am not a Java <span class=GramE>developer,</span> I
+wish to linger with the Cytoscape.js project.</p>
 
 </div>
 
